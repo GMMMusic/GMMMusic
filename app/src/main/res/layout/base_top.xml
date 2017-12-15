@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/rl_base_top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/id_ll_base_menu"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:background="@color/colorWhite1"-->
+        <!--android:layout_marginBottom="5dp"-->
+        <!--&gt;-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/id_base_tv_all_music"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:gravity="center"-->
+            <!--android:text="@string/bottom_menu_all_music"-->
+            <!--android:textColor="@color/colorAccentDarkTheme"-->
+            <!--android:textSize="@dimen/size_text_20dp"-->
+            <!--/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/id_menu_hestory"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:gravity="center"-->
+            <!--android:clickable="true"-->
+            <!--android:text="@string/bottom_menu_new_list"-->
+            <!--android:textSize="@dimen/size_text_20dp"-->
+            <!--/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/id_base_tv_like"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:gravity="center"-->
+            <!--android:text="@string/bottom_menu_like"-->
+            <!--android:textSize="@dimen/size_text_20dp"-->
+            <!--/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/id_base_tv_recent"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:gravity="center"-->
+            <!--android:text="@string/bottom_memu_history"-->
+            <!--android:textSize="@dimen/size_text_20dp"-->
+            <!--/>-->
+
+    <!--</LinearLayout>-->
+
+</RelativeLayout>

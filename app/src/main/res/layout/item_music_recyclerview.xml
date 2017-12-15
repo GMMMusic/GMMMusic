@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginLeft="@dimen/margin_base_left_15dp"
+    android:layout_marginRight="@dimen/margin_right_15dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_alignParentLeft="true"
+        android:id="@+id/id_image_music"
+        android:scaleType="fitXY"
+        android:layout_marginTop="8dp"
+        android:layout_width="@dimen/icon_image_50dp"
+        android:layout_height="@dimen/icon_image_50dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_title_music"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@id/id_image_music"
+        android:layout_marginLeft="15dp"
+        android:maxEms="10"
+        android:maxLines="1"
+        android:ellipsize="end"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_tv_repeat_num"
+        android:textSize="12dp"
+        android:layout_toRightOf="@id/id_image_music"
+        android:layout_below="@id/id_title_music"
+        android:layout_marginTop="5dp"
+        android:text="3"
+        android:layout_marginLeft="15dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.02dp"
+        android:layout_below="@id/id_image_music"
+        android:background="@color/colorPrimaryDark2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="17dp"
+        />
+</RelativeLayout>

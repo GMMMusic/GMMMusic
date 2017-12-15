@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MulMusic</string>
+    <string name= "tv_scan_music">扫面音乐</string>
+    <string name="bottom_menu_all_music">歌 曲</string>
+    <string name="bottom_menu_new_list">历 史</string>
+    <string name="bottom_menu_like">喜 欢</string>
+    <string name="bottom_memu_history">最 近</string>
+    <string name="top_base_back">返回</string>
+    <string name="top_base_search">搜索</string>
+    <string name="top_base_more">更多</string>
+</resources>

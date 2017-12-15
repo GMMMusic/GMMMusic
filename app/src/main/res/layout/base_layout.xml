@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:circle="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:background="@color/colorWhite">
+
+
+    <RelativeLayout
+        android:id="@+id/id_rl_base_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_marginBottom="15dp"
+        >
+
+        <SeekBar
+            android:layout_alignParentTop="true"
+            android:id="@+id/id_progressbar"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="7dp"
+            android:secondaryProgress="0"
+            android:progressDrawable="@drawable/seekbar_style"
+            />
+
+        <ImageView
+            android:id="@+id/id_image_base_bottom"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/id_progressbar"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/mulmusic"/>
+
+        <TextView
+            android:id="@+id/id_tv_title_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_progressbar"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@id/id_image_base_bottom"
+            android:clickable="true"
+            />
+
+        <com.gaochlei.mulmusic.widget.PlayerView
+            android:id="@+id/id_pv_player"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/id_progressbar"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="40dp"/>
+    </RelativeLayout>
+</RelativeLayout>

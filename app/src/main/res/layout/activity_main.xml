@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical">
+    <TextView
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/tv_scan_music"
+        android:id="@+id/tv_scan_music"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:clickable="true"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:id="@+id/id_main_ll"
+        >
+        <LinearLayout
+            android:id="@+id/id_ll_base_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/colorWhite1"
+            >
+
+            <TextView
+                android:id="@+id/id_base_tv_all_music"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/bottom_menu_all_music"
+                android:textColor="@color/colorAccentDarkTheme"
+                android:textSize="@dimen/size_text_17dp"
+                android:paddingBottom="7dp"
+                android:paddingTop="7dp"
+                />
+
+            <TextView
+                android:id="@+id/id_menu_hestory"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:clickable="true"
+                android:text="@string/bottom_menu_new_list"
+                android:textSize="@dimen/size_text_17dp"
+                android:paddingBottom="7dp"
+                android:paddingTop="7dp"
+                />
+
+            <TextView
+                android:id="@+id/id_base_tv_like"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/bottom_menu_like"
+                android:textSize="@dimen/size_text_17dp"
+                android:paddingBottom="7dp"
+                android:paddingTop="7dp"
+                />
+
+            <TextView
+                android:id="@+id/id_base_tv_recent"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/bottom_memu_history"
+                android:textSize="@dimen/size_text_17dp"
+                android:paddingBottom="7dp"
+                android:paddingTop="7dp"
+                />
+            <TextView
+                android:id="@+id/id_base_tv_search"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/top_base_search"
+                android:textSize="@dimen/size_text_17dp"
+                android:paddingBottom="7dp"
+                android:paddingTop="7dp"
+                />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_below="@id/tv_scan_music"
+            android:id="@+id/fragment_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+

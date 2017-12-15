@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_marginTop="10dp"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/id_new_list_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="@dimen/margin_base_left_15dp"
+        >
+        <ImageView
+            android:id="@+id/id_new_list_iv"
+            android:layout_width="@dimen/icon_image_50dp"
+            android:layout_height="@dimen/icon_image_50dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/icon_calendar"
+            android:scaleType="fitXY"
+            />
+        <TextView
+            android:id="@+id/id_new_list_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/id_new_list_iv"
+            android:layout_marginLeft="@dimen/margin_image_text_horizental"
+            android:text="2017-11-03"
+            android:textSize="@dimen/size_text_15dp"
+            />
+        <TextView
+            android:id="@+id/id_new_list_songcount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/id_new_list_iv"
+            android:layout_below="@id/id_new_list_date"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="@dimen/margin_image_text_horizental"
+            android:text="13首"
+            android:textSize="@dimen/size_text_15dp"
+            />
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/id_recyc_new"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="85dp"
+        />
+
+</LinearLayout>
